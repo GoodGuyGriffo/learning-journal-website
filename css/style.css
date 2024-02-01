@@ -1,0 +1,167 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+footer {
+    background-color: #202020;
+    text-align: center;
+    padding: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 0.875rem; /* 14px */ 
+    padding: 0 0.25em;
+}
+
+h2 {
+    /* 32 px */
+    font-size: 2rem; 
+    line-height: 1.1;
+    margin: 0.25em 0;
+}
+
+h3 {
+    /* 24px */
+    font-size: 1.5rem;
+    margin: 0.25em 0;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #151515;
+    margin: 1em 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    margin: 1em;
+    display: inline-block;
+}
+
+.blog-container {
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.blog-img {
+    width: 100%;
+    margin: 1em 0;
+}
+
+.blog-date {
+    /* 14px */
+    font-size: 0.875rem;
+    color: #000000
+}
+
+.blog-parra {
+    color:#505050;
+}
+
+#title {
+    display:flex;
+    align-items: center;
+}
+
+
+nav a {
+    color: #090909;
+    text-decoration: none;
+    display: inline;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+li {
+    display: inline;
+    padding: 0 1em;
+    font-size: 0.75rem; /* 12px */
+    font-weight: bold;
+}
+
+#main-img-section {
+    background-image: url("../images/article-image-hero.png");
+    width: 100%;
+    height: 280px;
+    color: #ffffff;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+#main-img-date {
+    /* 12px */
+    font-size: 0.75rem;
+}
+
+p {
+    max-width: 100%;
+}
+
+.footer-text {
+    font-size: 0.75rem;
+    color: #ececec;
+    font-weight: bold;
+}
+
+.footer-copyright {
+    font-size: 0.75rem;
+    color: #d7d7d7;
+}
+
+.content-container {
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.home-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 1.5em 0;
+}
+
+.recent-post {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2em;
+}
+
+@media (min-width: 720px) {
+    #main-img-section {
+        height: 700px;
+        background-size: cover;
+    }
+}
